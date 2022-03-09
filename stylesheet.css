@@ -94,3 +94,9 @@ a:visited.header_navigation{
 a:visited:hover.header_navigation{
     color: #ffbe60;
 }
+
+/********** Fomratierung Header Navigation **********/
+
+.header_navigation{
+    color: #DDD;
+    }
