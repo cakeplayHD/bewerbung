@@ -11,11 +11,13 @@ body{
       background-color: #666;
       }
   #header_kontakt{
-        /* Container Background Design */
         width: 1280px;
         height: 40px;
-        border: 1px solid #FFF;
         margin: 0px auto;
+        text-align: right;
+        vertical-align: middle;
+        color: #FFF;
+        padding: auto 0px;
         }
   #weiss{
         width: 100%;
@@ -29,7 +31,6 @@ body{
         border: 1px solid #FFF;
         }
   #header_image{
-        width: 100%;
         height: 720px;
         background-image: url(images/high_voltager_web_tiny.jpg);
         background-size: cover;
@@ -58,7 +59,17 @@ body{
 /********** Textformatierung **********/
 
 .header_image{
-      font-size: 32px;
-      font-weight: 900;
-      color: #FFF;
-}
+    font-size: 32px;
+    font-weight: 900;
+    color: #FFF;
+    }
+
+/********** Formatierung Navigation Header Kontakt **********/
+
+a:link.header_kontakt{
+    color: #FFF;
+    text-decoration: none;
+    }
+a:hover.header_kontakt{
+    color: #DDD;  
+    }
