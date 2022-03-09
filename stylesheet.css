@@ -1,0 +1,64 @@
+body{
+      font-family: SF Pro Text, arial sans-serif;
+      margin: 0px;
+      }
+
+/********** Layout **********/
+
+#header{
+      width: 100%;
+      border: 1px solid #CCC;
+      background-color: #666;
+      }
+  #header_kontakt{
+        /* Container Background Design */
+        width: 1280px;
+        height: 40px;
+        border: 1px solid #FFF;
+        margin: 0px auto;
+        }
+  #weiss{
+        width: 100%;
+        background-color: #FFF;
+        }
+  #header_navigation{
+        width: 1280px;
+        height: 80px;
+        background-color: #FFF;
+        margin: 0px auto;
+        border: 1px solid #FFF;
+        }
+  #header_image{
+        width: 100%;
+        height: 720px;
+        background-image: url(images/high_voltager_web_tiny.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-color: #EEE;
+        padding: 80px;
+        text-align: center;
+        }
+#inhalt{
+      width: 1280px;
+      margin: 40px auto;
+      border: 1px solid red;
+      }
+#footer{
+      width: 100%;
+      margin: 40px 0 0 0;
+      background-color: #666;
+      padding: 20px 0px;
+      }
+#footer_kontakt{
+  width: 1280px;
+  margin: 0 auto;
+  color: #FFF;
+}
+
+/********** Textformatierung **********/
+
+.header_image{
+      font-size: 32px;
+      font-weight: 900;
+      color: #FFF;
+}
