@@ -67,6 +67,9 @@ body{
     font-weight: 900;
     color: #FFF;
     }
+h2{
+    color: #ff9600;
+    }
 
 /********** Formatierung Navigation Header Kontakt **********/
 
@@ -99,3 +102,8 @@ a:visited:hover.header_navigation{
 .header_navigation{
     color: #DDD;
     }
+/********** Tabellen Formatierung **********/
+
+table{
+
+}
