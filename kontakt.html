@@ -34,8 +34,47 @@
     </div>
 
     <div id="inhalt">
+
       Ich freue mich auf Ihre Nachricht und auf Bewerbungsgespräch. Nuzten sie bitte das Kontakrformular, um mich zu erreichen.
+      <br>
+      <form id="kontakrtformular" action="mailto:max@mustermann.de" method="post" enctype="text/plain">
+
+        <table cellpadding="2" cellspacing="2">
+          <tr>
+            <td colspan="2"><p class="formular"><label for="Firma">Firma:*</label><input type="text" id="firma" placeholder="Firma eingeben" required></p></td>
+          </tr>
+          <tr>
+            <td><p class="formular"><label for="Vorname">Vorname:*</label><input type="text" id="Vorname" placeholder="Vorname eingeben" required></p></td>
+            <td><p class="formular"><label for="Nachname">Nachname:*</label><input type="text" id="Nachname" placeholder="Nachname eingeben" required></p></td>
+          </tr>
+          <tr>
+            <td><p class="formular"><label for="E-Mail">E-Mail:*</label><input type="" id="E-Mail" placeholder="mail@domain.de" required></p></td>
+            <td><p class="formular"><label for="Telefon">Telefon:</label><input type="tel" id="Telefon" placeholder="01234 56789"></p></td>
+          </tr>
+          <tr>
+            <td colspan="2"><p class="formular"><label for="Betreff">Betreff:*</label><input type="text" id="Betreff" placeholder="Betreff eingeben" required></p></td>
+          </tr>
+          <tr>
+            <td><p class="formular"><label for="Datum">Datum:</label> <input type="date" id="Datum" min="2022-01-01"></p></td>
+            <td><p class="formular"><label for="Uhrzeit">Uhrzeit:</label><input type="time" id="Uhrzeit"></p></td>
+          </tr>
+          <tr>
+            <td colspan="2"><p class="formular"><label for="Nachricht">Nachricht:</label><br><textarea id="Nachricht" rows="8" cols="80" placeholder="Nachricht eingeben"></textarea></p></td>
+          </tr>
+          <tr>
+            <td><p><input type="submit" id="Absenden" value="Absenden"></input></p></td>
+            <td><p><input type="reset" id="Zurücksetzen" value="Zurücksetzen"></input></p></td>
+          </tr>
+        </table>
+
+      </form>
+
     </div>
+
+<!--
+
+<input type="submit" id="Absenden" value="Absenden">&nbsp;<input type="reset" id="Formular zurücksetzen" value="Formular zurücksetzen">
+    -->
 
 
     <div id="footer">

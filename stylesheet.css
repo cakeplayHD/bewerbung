@@ -102,8 +102,24 @@ a:visited:hover.header_navigation{
 .header_navigation{
     color: #DDD;
     }
-/********** Tabellen Formatierung **********/
+/********** Kontaktformular Formatierung **********/
 
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 600;
+    }
+
+.formular{
+    background-color: #EEE;
+    padding: 6px;
+    }
 table{
+    margin: 0px auto;
+    }
 
+/********** Formatierung Link Bilder **********/
+
+.link{
+  width: 240px;
 }
