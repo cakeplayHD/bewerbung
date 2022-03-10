@@ -34,7 +34,16 @@ body{
         font-weight: 500;
         text-align: center;
         vertical-align: middle;
+        text
         }
+    .header_navigation_text{
+      background-color: #DDD;
+      padding: 10px;
+      font-size: 25px;
+      font-weight: 500;
+      text-align: center;
+      vertical-align: middle;
+    }
   #header_image{
         height: 720px;
         background-image: url(images/high_voltager_web_tiny.jpg);
@@ -83,17 +92,20 @@ a:hover.header_kontakt{
 
 /********** Formatierung Navigation Header Navigation **********/
 
-a:link.header_navigation{
+a:link.header_navigation_text{
     color: #ff9600;
+    background-color: #92adc0 /*#a6d1ed*/;
     text-decoration: none;
     }
-a:hover.header_navigation{
+a:hover.header_navigation_text{
     color: #ffbe60;
+    background-color: #99bcd6;
+
     }
-a:visited.header_navigation{
+a:visited.header_navigation_text{
     color: #ff9600;
   }
-a:visited:hover.header_navigation{
+a:visited:hover.header_navigation_text{
     color: #ffbe60;
 }
 
@@ -123,3 +135,5 @@ table{
 .link{
   width: 240px;
 }
+
+/********** Formatierung Button **********/
