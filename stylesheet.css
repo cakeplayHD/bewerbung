@@ -94,7 +94,7 @@ a:hover.header_kontakt{
 
 a:link.header_navigation_text{
     color: #ff9600;
-    background-color: #92adc0 /*#a6d1ed*/;
+    background-color: #c3d9e7;
     text-decoration: none;
     }
 a:hover.header_navigation_text{
@@ -103,10 +103,13 @@ a:hover.header_navigation_text{
 
     }
 a:visited.header_navigation_text{
-    color: #ff9600;
+  color: #ff9600;
+  background-color: #c3d9e7;
+  text-decoration: none;
   }
 a:visited:hover.header_navigation_text{
-    color: #ffbe60;
+  color: #ffbe60;
+  background-color: #99bcd6;
 }
 
 /********** Fomratierung Header Navigation **********/
